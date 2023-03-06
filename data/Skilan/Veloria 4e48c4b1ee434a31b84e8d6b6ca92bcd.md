@@ -1,0 +1,9 @@
+# Veloria
+
+Veloria is a small and isolated country located on the continent of Aravia. It is known for its enigmatic and secretive nature, with a culture that is shrouded in mystery and secrecy. The people of Veloria are known for their insular and mistrusting nature, and outsiders are rarely welcomed into their society.
+
+Misty Vale is the largest settlement in Veloria, and is known for its enigmatic and secretive nature. It is home to many ancient mysteries and secrets, and outsiders are rarely welcomed into the town. Despite its small size, Misty Vale holds great influence in Veloria, as it is home to a number of important political and cultural institutions.
+
+The Velorian culture is a multifaceted and complex one, with a worldview that is shaped by their isolation and mistrust of outsiders. Velorians value secrecy and mystery, and have a strong tradition of secrecy and covert operations. They are also known for their expertise in a number of fields, such as espionage, stealth, deception, and divination. The Velorians are known to be skilled diviners and seers, with a closely guarded tradition of divination that is practiced within their mountain temples. This knowledge is not widely known, and is only shared with a select few learned people around the world. In terms of their cultural traditions, Velorians have a strong appreciation for the arts, and are known for their music, literature, and visual arts. They also have a rich culinary tradition, with a range of flavorful and aromatic dishes that are influenced by their secluded location.
+
+One of the quirks of Velorian culture is their love of riddles and puzzles. Velorians are known for their love of wordplay and mind games, and they enjoy challenging outsiders with their riddles and puzzles. They are also known for their love of festivals and celebrations, and there are a number of important festivals throughout the year that are celebrated with music, dancing, and feasting.
