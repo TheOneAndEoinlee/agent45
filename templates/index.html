@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+</head>
+<body>
+<div id = "box">
+    <div id="chat-window">
+	{% for message in messages %}
+		<div class="message{% if message[2] == 'bot' %} received{% else %} sent{% endif %}">
+        {{ message[1] }}
+		</div>
+{% endfor %}
+	</div>
+
+    <div id="input-container">
+		 <textarea id="input-box" type="text" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' placeholder="Type your message here..."></textarea>
+		 <button id="send-button">></button>
+	</div>
+	
+</div>
+	
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
+
