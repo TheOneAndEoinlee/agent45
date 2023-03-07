@@ -7,11 +7,8 @@
 <body>
 <div id = "box">
     <div id="chat-window">
-	{% for message in messages %}
-		<div class="message{% if message[2] == 'bot' %} received{% else %} sent{% endif %}">
-        {{ message[1] }}
-		</div>
-{% endfor %}
+
+
 	</div>
 
     <div id="input-container">

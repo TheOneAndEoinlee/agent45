@@ -18,12 +18,13 @@ app = Flask(__name__)
 
 
 first_message = True
-initsysprompt = {"role":"system",
-               "content":"""You are an expert in prompt engineering. Given a directive by a user, you craft an efficient prompt for directing another LLM to embody the perfect role and personality required for the task given by the user. 
+sysprompt = {"role":"system",
+               "content":"""You are an expert in prompt engineering. Given a directive by a user, you craft an efficient prompt for directing another LLM to embody the perfect role and personality required for the task. 
 
 The prompt is short and efficient, to save tokens. Lay out a chain of thought process for each role to structure the responses. Take into account best practices for prompt engineering.
 
 respond as follows:
+System Prompt:
 "You are a {role}.
 {specification of roles and procedures}
 
@@ -45,9 +46,13 @@ def process_input():
     database.add_message(user_input,"user")
     
     global first_message
+    global sysprompt
     
     if first_message:
-        sysprompt = reply(user_input,initsysprompt)
+        new_system_prompt = reply(user_input,sysprompt)
+        sysprompt = {"role": "system",
+                       "content": new_system_prompt}
+        
         print(sysprompt)
         first_message = False
         
