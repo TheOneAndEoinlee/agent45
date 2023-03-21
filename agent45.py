@@ -20,7 +20,7 @@ def reply(message, sysprompt = sys_instruct):
                 model="gpt-3.5-turbo",
                 temperature = 0.5,
                 messages=[
-                        sys_instruct,
+                        sysprompt,
                         {"role": "user", "content":message}
                         ]
             )             
